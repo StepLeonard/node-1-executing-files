@@ -13,6 +13,18 @@
 const inputString = "Javascript Rocks!";
 let reversedString = "";
 
-// Your code here
 
-console.log(reversedString);
+for (const item of inputString){
+    reversedString = item + reversedString
+}
+// for (let i = 0; i < inputString.length; i++) {
+//     console.log(inputString[i])
+//  reversedString = item + reversedString;
+
+
+// for (let i = inputString.length -1 ; i >= 0; i--
+
+// ){reversedString = reversedString + inputString[i];
+    
+// }
+ console.log(reversedString);
